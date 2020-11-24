@@ -17,4 +17,5 @@ npm i readline-sync
  This Quiz also consists of leaderboard which help you to see how you performed relatively.
 
 ## Demo
-![](https://github.com/DarkShadow20/QnA/tree/main/demo/demo.gif)
+
+![Working Demo](https://github.com/DarkShadow20/QnA/tree/main/demo/demo.gif)
