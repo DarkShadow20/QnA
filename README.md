@@ -1,8 +1,20 @@
-# CLI QUIZ About Myself
+# CLI QUIZ ON Myself
 
-This was my first JavaScript miniproject.
-CHALK is used to make it more appealing.
-So basically this consists of some questions about me and for each right answer player gets 5 points while on wrong answer player gets negative marks.
-The questions are basically in an array of objects which are parsed and send to function as arguements.
+The quiz was basically made in **nodeJS**. In this I used chalk and readlinesync package to make it more attractive and interactive.Developed on collaborative browser app [repl.it](https://repl.it/@KUNALGUPTA9/QnA-AboutMe?embed=1&output=1#index.js)
 
-So play and enjoy this quiz.
+## Installation
+
+```sh
+npm install chalk
+npm i readline-sync
+```
+
+## Quiz
+ 
+ In this app there are basic concepts like **array, objects, looping, functions, conditional statements**.
+ This will take the player's name and ask certain question. For each right answer the player gets marks and for wrong answer some points are deducted.
+ To make it interesting a bonus question is being made which will be available if a certain player scores more than a certain score.
+ This Quiz also consists of leaderboard which help you to see how you performed relatively.
+
+## Demo
+(demo/demo.gif)
