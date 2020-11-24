@@ -18,4 +18,4 @@ npm i readline-sync
 
 ## Demo
 
-![Working Demo](https://github.com/DarkShadow20/QnA/tree/main/demo.gif?raw=true)
+![Working Demo](https://github.com/DarkShadow20/QnA/tree/main/demo.gif)
