@@ -1,8 +1,8 @@
-var readlinesync=require('readline-sync')
-var chalk=require('chalk')
+const readlinesync=require('readline-sync')
+const chalk=require('chalk')
 
-var score=0;
-var playerName=readlinesync.question(chalk.bold.magenta("May I know you name ?"));
+let score=0;
+let playerName=readlinesync.question(chalk.bold.magenta("May I know your name ?"));
 
 console.log(chalk.bold.cyan("Welcome "+ playerName + " to DO YOU KNOW KUNAL ?"))
 
@@ -10,7 +10,7 @@ function play(question,ans,options)
 {
   console.log("Question ");
   console.log(chalk.bold.yellow(question));
-  var playerAnswer=readlinesync.keyInSelect(options);
+  let playerAnswer=readlinesync.keyInSelect(options);
   if((playerAnswer+1) === ans){
     console.log(chalk.green("You are right"));
     score=score+5;
@@ -26,7 +26,7 @@ function play(question,ans,options)
 }
 
 
-var questions=[{
+const questions=[{
   ques:"What is my name ? ",
   ans : 1,
   options:["Kunal Gupta","Louis Litt","Harvey Specter","Hriday Bhatia"]
@@ -54,8 +54,8 @@ var questions=[{
 
 
 
-for( var i=0;i<questions.length;i++){
-  var currentQuestion=questions[i];
+for( let i=0;i<questions.length;i++){
+  let currentQuestion=questions[i];
   play(currentQuestion.ques,currentQuestion.ans,currentQuestion.options)
 }
 
